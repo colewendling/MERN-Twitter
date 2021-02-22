@@ -1,9 +1,10 @@
 {
-  "name": "MERN-Twitter",
+  "name": "mern-twitter",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
+    "server:debug": "nodemon --inspect app.js",
     "start": "node app.js",
     "server": "nodemon app.js"
   },
